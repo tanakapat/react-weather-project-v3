@@ -1,9 +1,9 @@
 .Weather {
     border: 1px solid #dadde1;
     color: rgb(135, 135, 135);
-    margin: 10px auto;
+    margin: 5px auto;
     border-radius: 4px;    
-    padding: 16px;
+    padding: 10px;
 }
 
 .Weather h1 {
@@ -30,6 +30,7 @@
     color: rgb(33, 33, 33);
     font-size:  64px;
     line-height: 64px;
+    
 }
 
 .Weather .unit {
@@ -39,11 +40,11 @@
     position: relative;
     top: -32px;
     margin-left: 5px;
-    line-height: 1;
+    line-height: 1;    
 }
 
 .Weather img {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-right: 10px;
     height: 64px;
     width: 64px;
