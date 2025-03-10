@@ -31,6 +31,7 @@
     font-size:  64px;
     line-height: 64px;
     
+    
 }
 
 .Weather .unit {
@@ -40,12 +41,11 @@
     position: relative;
     top: -32px;
     margin-left: 5px;
-    line-height: 1;    
+    line-height: 1;       
 }
 
-.Weather img {
-    margin-bottom: 10px;
+.Weather canvas {
+    margin-top: 10px;
     margin-right: 10px;
-    height: 64px;
-    width: 64px;
+    margin: 10px 10px -8px 0
 }

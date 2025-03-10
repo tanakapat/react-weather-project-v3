@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+
 import "./Weather.css"
 
 export default function Weather (props) {
@@ -8,7 +9,7 @@ export default function Weather (props) {
     const [city, setCity] = useState(props.defaultCity);
     
     function handleResponse (response) {   
-        console.log(response.data)     
+        console.log(response.data)         
         setwWatherData({   
             ready: true,     
             date: new Date(response.data.time * 1000),
